@@ -1,0 +1,55 @@
+def simple():
+    print ("My first function")
+simple()
+
+# Function with Parameters
+def plus_ten(a):
+    return a + 10
+plus_ten(25)
+
+# Function with parameters for mutliply and division operation
+def func_1(a):
+    print (a*2)
+func_1(2)
+
+def func_1(a):
+    print (float(a)/2)
+func_1(8)
+
+# Recurring Functions
+def wage(w_hours):
+    return w_hours * 25
+
+def with_bonus(w_hours):
+    return wage(w_hours) + 50
+    
+def plus_5(a):
+    return a + 5
+def mult_3(a):
+    return plus_5(a) * 3
+plus_5(2)
+mult_3(2)
+
+#Function calls and conditional statements
+def add_10(m):
+    if m >= 100:
+        m = m + 10
+        return m
+    else:
+        return "Save more!"
+
+
+def compare_the_two(a,b):
+    if(a > b):
+        print("Greater")
+    elif(a < b):
+        print("Less")
+    elif(a == b):
+        print("Equal")
+    else:
+        print("Unkonwn")
+compare_the_two(2,5)
+
+
+
+
